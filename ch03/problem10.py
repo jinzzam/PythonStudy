@@ -1,6 +1,10 @@
-height = input('height : ')
-sinangle = input('sinangle : ')
+import math
 
-length = float(height)/float(sinangle)
+height = input('height : ')
+angle = input('angle : ')
+
+sinangle = math.pi / 180 * angle
+
+length = float(height) / float(sinangle)
 
 print(length)
