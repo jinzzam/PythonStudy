@@ -5,4 +5,4 @@ for i in range(0, n):
     num = input('num : ')
     sum = sum + num
 
-print(sum / n)
+print(float(sum) / n)
